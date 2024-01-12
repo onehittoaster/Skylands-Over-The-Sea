@@ -1,0 +1,35 @@
+{
+  "pack": {
+    "description": [
+      {
+        "text": "Floating Islands and Oceans",
+        "color": "#009999"
+      },
+      "\n",
+      {
+        "text": "Made by ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Quidvio",
+        "color": "#ffc76f"
+      }
+    ],
+    "pack_format": 15,
+    "supported_formats": [
+      15,
+      26
+    ]
+  },
+  "overlays": {
+    "entries": [
+      {
+        "formats": [
+          17,
+          26
+        ],
+        "directory": "overlay1"
+      }
+    ]
+  }
+}

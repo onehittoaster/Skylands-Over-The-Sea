@@ -1,0 +1,34 @@
+{
+    "type": "minecraft:range_choice",
+    "input": {
+        "type": "minecraft:mul",
+        "argument1": {
+            "type": "minecraft:y_clamped_gradient",
+            "from_y": -64,
+            "to_y": 0,
+            "from_value": 0,
+            "to_value": 1
+        },
+        "argument2": {
+            "type": "minecraft:y_clamped_gradient",
+            "from_y": 94,
+            "to_y": 95,
+            "from_value": 1,
+            "to_value": 0
+        }
+    },
+    "min_inclusive": 0,
+    "max_exclusive": 1,
+    "when_in_range": {
+        "type": "minecraft:range_choice",
+        "input": "minecraft:overworld/continents",
+        "max_exclusive": 2,
+        "min_inclusive": -1.05,
+        "when_out_of_range": "minecraft:overworld/continents",
+        "when_in_range": {
+            "type": "minecraft:abs",
+            "argument": "minecraft:util/continents"
+        }
+    },
+    "when_out_of_range": "minecraft:overworld/continents"
+}
