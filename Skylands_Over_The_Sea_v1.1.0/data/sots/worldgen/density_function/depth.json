@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:range_choice",
+  "input": "minecraft:y",
+  "min_inclusive": 24,
+  "max_exclusive": 512,
+  "when_in_range": 0,
+  "when_out_of_range": "minecraft:overworld/depth"
+}
