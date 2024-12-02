@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:cache_once",
+  "argument": {
+    "type": "more_dfs:reciprocal",
+    "input": {
+      "type": "more_dfs:subtract",
+      "argument1": 1.0,
+      "argument2": {
+        "type": "more_dfs:power",
+        "base": 2.718281828459045,
+        "exp": {
+          "type": "more_dfs:negate",
+          "argument": {
+            "type": "minecraft:mul",
+            "argument1": {
+              "type": "more_dfs:reciprocal",
+              "input": "skylands_over_the_sea:parameters/world_radius"
+            },
+            "argument2": {
+              "type": "more_dfs:subtract",
+              "argument1": "skylands_over_the_sea:world_center_distance",
+              "argument2": "skylands_over_the_sea:parameters/spawn_exclusion_radius"
+            }
+          }
+        }
+      }
+    }
+  }
+}

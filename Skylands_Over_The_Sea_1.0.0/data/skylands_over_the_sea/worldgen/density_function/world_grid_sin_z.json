@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:cache_once",
+  "argument": {
+    "type": "more_dfs:sine",
+    "argument": {
+      "type": "minecraft:mul",
+      "argument1": "skylands_over_the_sea:constants/skylands_spacing_factor",
+      "argument2": {
+        "type": "minecraft:add",
+        "argument1": "skylands_over_the_sea:constants/skylands_spacing_offset",
+        "argument2": {
+          "type": "more_dfs:z"
+        }
+      }
+    }
+  }
+}

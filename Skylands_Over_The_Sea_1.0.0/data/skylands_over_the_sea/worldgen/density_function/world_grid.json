@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:cache_once",
+  "argument": {
+    "type": "minecraft:flat_cache",
+    "argument": {
+      "type": "minecraft:mul",
+      "argument1": "skylands_over_the_sea:spawn_avoid_sigmoid",
+      "argument2": {
+        "type": "minecraft:add",
+        "argument1": -0.25,
+        "argument2": {
+          "type": "minecraft:mul",
+          "argument1": 0.5,
+          "argument2": {
+            "type": "minecraft:add",
+            "argument1": "skylands_over_the_sea:world_grid_sin_x",
+            "argument2": "skylands_over_the_sea:world_grid_sin_z"
+          }
+        }
+      }
+    }
+  }
+}

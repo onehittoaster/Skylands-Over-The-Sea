@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:cache_once",
+  "argument": {
+    "type": "minecraft:mul",
+    "argument1": 0.25,
+    "argument2": "skylands_over_the_sea:parameters/skyland_spacing"
+  }
+}

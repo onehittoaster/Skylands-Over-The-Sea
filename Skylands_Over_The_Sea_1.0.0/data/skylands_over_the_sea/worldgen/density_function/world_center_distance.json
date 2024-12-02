@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:cache_once",
+  "argument": {
+    "type": "more_dfs:sqrt",
+    "argument": {
+      "type": "minecraft:add",
+      "argument1": {
+        "type": "minecraft:square",
+        "argument": {
+          "type": "more_dfs:x"
+        }
+      },
+      "argument2": {
+        "type": "minecraft:square",
+        "argument": {
+          "type": "more_dfs:z"
+        }
+      }
+    }
+  }
+}
+

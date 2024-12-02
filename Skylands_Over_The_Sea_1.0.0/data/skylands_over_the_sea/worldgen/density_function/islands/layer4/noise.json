@@ -3,17 +3,24 @@
   "argument": {
     "type": "minecraft:flat_cache",
     "argument": {
-      "type": "minecraft:add",
-      "argument1": -0.725,
-      "argument2": {
-        "type": "minecraft:shifted_noise",
-        "noise": "skylands_over_the_sea:islands",
-        "xz_scale": 0.85,
-        "y_scale": 0,
-        "shift_x": 8000,
-        "shift_y": 8000,
-        "shift_z": 8000
-      }
+      "type": "range_choice",
+      "input": "skylands_over_the_sea:world_rings",
+      "min_inclusive": 0.001,
+      "max_exclusive": 100000.0,
+      "when_in_range": {
+        "type": "minecraft:add",
+        "argument1": -0.725,
+        "argument2": {
+          "type": "minecraft:shifted_noise",
+          "noise": "skylands_over_the_sea:islands",
+          "xz_scale": 0.85,
+          "y_scale": 0,
+          "shift_x": 8000,
+          "shift_y": 8000,
+          "shift_z": 8000
+        }
+      },
+      "when_out_of_range": 0.0
     }
   }
 }

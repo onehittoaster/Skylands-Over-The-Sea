@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:cache_once",
+  "argument": {
+    "type": "minecraft:flat_cache",
+    "argument": {
+      "type": "minecraft:mul",
+      "argument1": "skylands_over_the_sea:spawn_avoid_sigmoid",
+      "argument2": {
+        "type": "minecraft:add",
+        "argument1": -0.4,
+        "argument2": {
+          "type": "more_dfs:sine",
+          "argument": {
+            "type": "minecraft:mul",
+            "argument1": 0.005,
+            "argument2": "skylands_over_the_sea:world_center_distance"
+          }
+        }
+      }
+    }
+  }
+}

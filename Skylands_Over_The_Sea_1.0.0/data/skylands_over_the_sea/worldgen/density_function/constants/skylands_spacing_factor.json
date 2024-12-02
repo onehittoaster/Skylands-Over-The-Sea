@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:cache_once",
+  "argument": {
+    "type": "more_dfs:div",
+    "dividend": 6.28318530718,
+    "divisor": "skylands_over_the_sea:parameters/skyland_spacing"
+  }
+}
