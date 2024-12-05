@@ -3,20 +3,19 @@
   "argument": {
     "type": "minecraft:flat_cache",
     "argument": {
-      "type": "minecraft:mul",
-      "argument1": "skylands_over_the_sea:spawn_avoid_sigmoid",
-      "argument2": {
-        "type": "minecraft:add",
-        "argument1": -0.4,
-        "argument2": {
-          "type": "more_dfs:sine",
-          "argument": {
-            "type": "minecraft:mul",
-            "argument1": 0.005,
-            "argument2": "skylands_over_the_sea:world_center_distance"
-          }
+      "type": "range_choice",
+      "input": "skylands_over_the_sea:spawn_avoid_sigmoid",
+      "min_inclusive": 0.01,
+      "max_exclusive": 100000.0,
+      "when_in_range": {
+        "type": "more_dfs:sine",
+        "argument": {
+          "type": "minecraft:mul",
+          "argument1": "skylands_over_the_sea:constants/skylands_spacing_factor",
+          "argument2": "skylands_over_the_sea:world_center_distance"
         }
-      }
+      },
+      "when_out_of_range": -1
     }
   }
 }

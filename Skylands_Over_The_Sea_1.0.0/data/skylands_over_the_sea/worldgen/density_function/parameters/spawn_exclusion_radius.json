@@ -2,6 +2,6 @@
   "type": "minecraft:cache_once",
   "argument": {
     "type": "constant",
-    "argument": 750
+    "argument": 700
   }
 }

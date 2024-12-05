@@ -14,7 +14,7 @@
             "type": "minecraft:mul",
             "argument1": {
               "type": "more_dfs:reciprocal",
-              "input": "skylands_over_the_sea:parameters/world_radius"
+              "input": "skylands_over_the_sea:parameters/spawn_exclusion_radius"
             },
             "argument2": {
               "type": "more_dfs:subtract",
