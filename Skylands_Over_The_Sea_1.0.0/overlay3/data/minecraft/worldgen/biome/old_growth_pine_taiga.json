@@ -4,8 +4,8 @@
     "minecraft:cave_extra_underground",
     "minecraft:canyon"
   ],
-  "temperature": 0.8,
-  "downfall": 0.4,
+  "temperature": 0.5,
+  "downfall": 0.8,
   "has_precipitation": true,
   "effects": {
     "fog_color": 12638463,
@@ -29,9 +29,18 @@
   },
   "features": [
     [],
-    ["minecraft:lake_lava_underground", "minecraft:lake_lava_surface"],
-    ["minecraft:amethyst_geode", "minecraft:forest_rock"],
-    ["minecraft:monster_room", "minecraft:monster_room_deep"],
+    [
+      "minecraft:lake_lava_underground",
+      "minecraft:lake_lava_surface"
+    ],
+    [
+      "minecraft:amethyst_geode",
+      "minecraft:forest_rock"
+    ],
+    [
+      "minecraft:monster_room",
+      "minecraft:monster_room_deep"
+    ],
     [],
     [],
     [
@@ -66,7 +75,10 @@
       "minecraft:disk_gravel"
     ],
     [],
-    ["minecraft:spring_water", "minecraft:spring_lava"],
+    [
+      "minecraft:spring_water",
+      "minecraft:spring_lava"
+    ],
     [
       "minecraft:glow_lichen",
       "minecraft:patch_large_fern",
@@ -82,7 +94,9 @@
       "minecraft:patch_pumpkin",
       "minecraft:patch_berry_common"
     ],
-    ["minecraft:freeze_top_layer"]
+    [
+      "minecraft:freeze_top_layer"
+    ]
   ],
   "spawn_costs": {},
   "spawners": {
