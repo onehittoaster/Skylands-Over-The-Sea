@@ -2,6 +2,7 @@
   "type": "lithostitched:add_features",
   "biomes": "#minecraft:is_overworld",
   "features": [
+    "create_dd:ore_potassic_cobble_upper",
     "minecraft:ore_andesite_upper",
     "minecraft:ore_copper_upper",
     "minecraft:ore_diamond_upper",

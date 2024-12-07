@@ -1,0 +1,93 @@
+{
+  "feature": {
+    "type": "minecraft:ore",
+    "config": {
+      "size": 14,
+      "discard_chance_on_air_exposure": 0,
+      "targets": [
+        {
+          "target": {
+            "predicate_type": "blockstate_match",
+            "block_state": {
+              "Name": "minecraft:stone"
+            }
+          },
+          "state": {
+            "Name": "create_dd:potassic_cobble"
+          }
+        },
+        {
+          "target": {
+            "predicate_type": "blockstate_match",
+            "block_state": {
+              "Name": "minecraft:granite"
+            }
+          },
+          "state": {
+            "Name": "create_dd:potassic_cobble"
+          }
+        },
+        {
+          "target": {
+            "predicate_type": "blockstate_match",
+            "block_state": {
+              "Name": "minecraft:diorite"
+            }
+          },
+          "state": {
+            "Name": "create_dd:potassic_cobble"
+          }
+        },
+        {
+          "target": {
+            "predicate_type": "blockstate_match",
+            "block_state": {
+              "Name": "minecraft:andesite"
+            }
+          },
+          "state": {
+            "Name": "create_dd:potassic_cobble"
+          }
+        },
+        {
+          "target": {
+            "predicate_type": "blockstate_match",
+            "block_state": {
+              "Name": "minecraft:deepslate",
+              "Properties": {
+                "axis": "y"
+              }
+            }
+          },
+          "state": {
+            "Name": "create_dd:potassic_cobble"
+          }
+        }
+      ]
+    }
+  },
+  "placement": [
+    {
+      "type": "minecraft:count",
+      "count": 80
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "type": "minecraft:height_range",
+      "height": {
+        "type": "minecraft:uniform",
+        "min_inclusive": {
+          "absolute": 88
+        },
+        "max_inclusive": {
+          "absolute": 300
+        }
+      }
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}
