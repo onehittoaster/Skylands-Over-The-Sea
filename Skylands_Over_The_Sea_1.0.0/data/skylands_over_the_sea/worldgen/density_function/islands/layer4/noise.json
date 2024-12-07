@@ -14,7 +14,7 @@
         "max_exclusive": 0.0,
         "when_in_range": {
           "type": "minecraft:add",
-          "argument1": -0.8,
+          "argument1": -0.75,
           "argument2": {
             "type": "minecraft:shifted_noise",
             "noise": "skylands_over_the_sea:islands",
