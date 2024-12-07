@@ -23,3 +23,8 @@ Special thanks to Klinbee for assisting via Discord chat.
 - https://modrinth.com/mod/more-density-functions
 - https://modrinth.com/mod/valkyrien-skies
   - https://modrinth.com/mod/create-clockwork
+
+Not a pure dependency, per-se, but without "Feature Recycler", the mapgen will
+crash when generating for Deep Dark.  This is a bug in our mapgen and needs
+to be fixed.
+- https://modrinth.com/mod/feature-recycler
