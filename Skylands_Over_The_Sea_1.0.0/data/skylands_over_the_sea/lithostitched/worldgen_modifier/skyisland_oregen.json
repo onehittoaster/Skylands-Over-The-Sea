@@ -4,8 +4,12 @@
   "features": [
     "chipped:rough_cobblestone_upper",
     "create:ore_zinc_upper",
+    "create_dd:ore_asurine_cobble_upper",
+    "create_dd:ore_crimsite_cobble_upper",
+    "create_dd:ore_ochrum_cobble_upper",
     "create_dd:ore_potassic_cobble_upper",
     "create_dd:ore_tin_upper",
+    "create_dd:ore_veridium_cobble_upper",
     "minecraft:glow_lichen",
     "minecraft:ore_andesite_upper",
     "minecraft:ore_copper_upper",
