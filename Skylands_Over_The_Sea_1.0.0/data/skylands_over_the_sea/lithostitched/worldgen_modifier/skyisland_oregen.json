@@ -1,0 +1,13 @@
+{
+  "type": "lithostitched:add_features",
+  "biomes": "#minecraft:is_overworld",
+  "features": [
+    "minecraft:ore_andesite_upper",
+    "minecraft:ore_copper_upper",
+    "minecraft:ore_diamond_upper",
+    "minecraft:ore_gold_upper",
+    "minecraft:ore_diorite_upper",
+    "vs_clockwork:ore_wanderlite_upper"
+  ],
+  "step": "underground_ores"
+}
