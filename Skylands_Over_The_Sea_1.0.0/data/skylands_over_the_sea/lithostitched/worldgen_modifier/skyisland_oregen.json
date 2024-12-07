@@ -4,11 +4,14 @@
   "features": [
     "create_dd:ore_potassic_cobble_upper",
     "create_dd:ore_tin_upper",
+    "minecraft:glow_lichen",
     "minecraft:ore_andesite_upper",
     "minecraft:ore_copper_upper",
     "minecraft:ore_diamond_upper",
-    "minecraft:ore_gold_upper",
     "minecraft:ore_diorite_upper",
+    "minecraft:ore_gold_upper",
+    "minecraft:ore_lapis_upper",
+    "minecraft:ore_redstone_upper",
     "vs_clockwork:ore_wanderlite_upper"
   ],
   "step": "underground_ores"
