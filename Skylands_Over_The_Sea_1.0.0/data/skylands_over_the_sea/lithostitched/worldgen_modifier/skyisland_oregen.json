@@ -2,6 +2,7 @@
   "type": "lithostitched:add_features",
   "biomes": "#minecraft:is_overworld",
   "features": [
+    "create:ore_zinc_upper",
     "create_dd:ore_potassic_cobble_upper",
     "create_dd:ore_tin_upper",
     "minecraft:glow_lichen",
