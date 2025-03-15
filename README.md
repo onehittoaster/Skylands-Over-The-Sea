@@ -23,6 +23,8 @@ Special thanks to Klinbee for assisting via Discord chat.
 - https://modrinth.com/mod/more-density-functions
 - https://modrinth.com/mod/valkyrien-skies
   - https://modrinth.com/mod/create-clockwork
+- https://modrinth.com/mod/lithostitched/
+  - lithostitched-fabric-1.20.1-1.1.6.jar  (seems sensitive to the exact version).
 
 Not a pure dependency, per-se, but without "Feature Recycler", the mapgen will
 crash when generating for Deep Dark.  This is a bug in our mapgen and needs
