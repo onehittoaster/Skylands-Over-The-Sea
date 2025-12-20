@@ -8,7 +8,7 @@
       "argument2": {
         "type": "more_dfs:power",
         "base": 2.718281828459045,
-        "exp": {
+        "exponent": {
           "type": "more_dfs:negate",
           "argument": {
             "type": "minecraft:mul",
