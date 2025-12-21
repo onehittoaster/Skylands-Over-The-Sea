@@ -8,7 +8,7 @@
       "min_inclusive": 0.01,
       "max_exclusive": 100000.0,
       "when_in_range": {
-        "type": "more_dfs:sine",
+        "type": "moredfs:sin",
         "argument": {
           "type": "minecraft:mul",
           "argument1": "skylands_over_the_sea:constants/skylands_spacing_factor",

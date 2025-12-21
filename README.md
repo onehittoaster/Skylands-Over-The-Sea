@@ -15,11 +15,10 @@ Special thanks to Klinbee for assisting via Discord chat.
 
 ## Dependencies
 
+- https://modrinth.com/mod/more-density-functions (version 2.2.1)
 - https://modrinth.com/mod/chipped
   - https://modrinth.com/mod/athena-ctm
   - https://modrinth.com/mod/resourceful-lib
-- https://modrinth.com/mod/create-dreams-and-desires
-  - https://modrinth.com/mod/create
 - https://modrinth.com/mod/more-density-functions
 - https://modrinth.com/mod/valkyrien-skies
   - https://modrinth.com/mod/create-clockwork
